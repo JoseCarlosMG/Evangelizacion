@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evangelizacion.Android", "Evangelizacion\Evangelizacion.Android\Evangelizacion.Android.csproj", "{5EAC7E56-655F-421B-97FA-81A45AB08648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evangelizacion", "Evangelizacion\Evangelizacion\Evangelizacion.csproj", "{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.MVVM", "..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.shproj", "{F0362952-C423-4470-98D9-F7223F034D26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CC428361-8EE6-4A2C-91B0-7DCA30E75239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xamarin", "Xamarin", "{44D7FE6F-0DAD-4B72-8778-F315887E4541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{6782B348-B260-4E45-9A99-A0AE23D607C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAC7E56-655F-421B-97FA-81A45AB08648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAC7E56-655F-421B-97FA-81A45AB08648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAC7E56-655F-421B-97FA-81A45AB08648}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5EAC7E56-655F-421B-97FA-81A45AB08648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAC7E56-655F-421B-97FA-81A45AB08648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAC7E56-655F-421B-97FA-81A45AB08648}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EAC7E56-655F-421B-97FA-81A45AB08648} = {6782B348-B260-4E45-9A99-A0AE23D607C2}
+		{F0362952-C423-4470-98D9-F7223F034D26} = {CC428361-8EE6-4A2C-91B0-7DCA30E75239}
+		{6782B348-B260-4E45-9A99-A0AE23D607C2} = {44D7FE6F-0DAD-4B72-8778-F315887E4541}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1779E4BA-163C-4BB1-94A2-E106A32CB510}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.projitems*{f0362952-c423-4470-98d9-f7223f034d26}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
