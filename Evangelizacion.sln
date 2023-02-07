@@ -7,13 +7,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evangelizacion.Android", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evangelizacion", "Evangelizacion\Evangelizacion\Evangelizacion.csproj", "{6C3670C4-84DC-4AA9-91B1-6B04FCAB587E}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.MVVM", "..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.shproj", "{F0362952-C423-4470-98D9-F7223F034D26}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CC428361-8EE6-4A2C-91B0-7DCA30E75239}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xamarin", "Xamarin", "{44D7FE6F-0DAD-4B72-8778-F315887E4541}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{6782B348-B260-4E45-9A99-A0AE23D607C2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.Evangelizacion", "Core.Evangelizacion\Core.Evangelizacion.shproj", "{B0B1B44A-F5A1-4E1E-8760-94CA7007BD18}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Core.MVVM", "Core.MVVVM\Core.MVVM.shproj", "{396279A3-0802-4749-A151-F29BFF5361D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +41,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5EAC7E56-655F-421B-97FA-81A45AB08648} = {6782B348-B260-4E45-9A99-A0AE23D607C2}
-		{F0362952-C423-4470-98D9-F7223F034D26} = {CC428361-8EE6-4A2C-91B0-7DCA30E75239}
 		{6782B348-B260-4E45-9A99-A0AE23D607C2} = {44D7FE6F-0DAD-4B72-8778-F315887E4541}
+		{B0B1B44A-F5A1-4E1E-8760-94CA7007BD18} = {CC428361-8EE6-4A2C-91B0-7DCA30E75239}
+		{396279A3-0802-4749-A151-F29BFF5361D3} = {CC428361-8EE6-4A2C-91B0-7DCA30E75239}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1779E4BA-163C-4BB1-94A2-E106A32CB510}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.projitems*{6c3670c4-84dc-4aa9-91b1-6b04fcab587e}*SharedItemsImports = 5
-		..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.projitems*{f0362952-c423-4470-98d9-f7223f034d26}*SharedItemsImports = 13
+		Core.MVVVM\Core.MVVVM.projitems*{396279a3-0802-4749-a151-f29bff5361d3}*SharedItemsImports = 13
+		Core.Evangelizacion\Core.Evangelizacion.projitems*{6c3670c4-84dc-4aa9-91b1-6b04fcab587e}*SharedItemsImports = 5
+		Core.Evangelizacion\Core.Evangelizacion.projitems*{b0b1b44a-f5a1-4e1e-8760-94ca7007bd18}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

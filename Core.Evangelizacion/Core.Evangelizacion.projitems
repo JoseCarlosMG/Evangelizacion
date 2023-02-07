@@ -9,5 +9,10 @@
     <Import_RootNamespace>Core.Evangelizacion</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)OS\INavigationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OS\PagesKeys.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModel\" />
   </ItemGroup>
 </Project>

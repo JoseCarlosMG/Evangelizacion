@@ -11,7 +11,7 @@ namespace Evangelizacion
         {
             InitializeComponent();
 
-            MainPage = new LectioDivinaPage();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()
