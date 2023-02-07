@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Evangelizacion.Views;
 
 namespace Evangelizacion
 {
@@ -10,7 +11,7 @@ namespace Evangelizacion
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new LectioDivinaPage();
         }
 
         protected override void OnStart()

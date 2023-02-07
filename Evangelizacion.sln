@@ -46,6 +46,7 @@ Global
 		SolutionGuid = {1779E4BA-163C-4BB1-94A2-E106A32CB510}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.projitems*{6c3670c4-84dc-4aa9-91b1-6b04fcab587e}*SharedItemsImports = 5
 		..\..\..\Evangelizacion\Evangelizacion\Core.MVVM\Core.MVVM.projitems*{f0362952-c423-4470-98d9-f7223f034d26}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
