@@ -1,4 +1,5 @@
 ﻿using Core.Evangelizacion.OS;
+using Core.Evangelizacion.ViewModel;
 using Evangelizacion.Views;
 using System;
 using System.Collections.Generic;
@@ -33,6 +34,9 @@ namespace Evangelizacion.OS
                 case PagesKeys.HomePage:
                     paginaPorNavegar = typeof(HomePage);
                     break;
+                case PagesKeys.LectioDivinaPage:
+                    paginaPorNavegar = typeof(LectioDivinaPage);
+                    break;
             }
             var ultimaPagina = Navigation.NavigationStack.Where(p => p.GetType() == paginaPorNavegar).FirstOrDefault();
             if (ultimaPagina == null)
@@ -41,6 +45,9 @@ namespace Evangelizacion.OS
                 {
                     case PagesKeys.HomePage:
                         await Navigation.PopToRootAsync(true);
+                        break;
+                    case PagesKeys.LectioDivinaPage:
+                        await Navigation.PushAsync(new LectioDivinaPage(), true);
                         break;
                 }
             }
@@ -66,7 +73,8 @@ namespace Evangelizacion.OS
                 switch (pageKey)
                 {
                     case PagesKeys.HomePage:
-                        await Navigation.PushAsync(new HomePage(), true);
+                        await Navigation.PushAsync(new HomePage());
+                        //await Navigation.PushAsync(new HomePage((HomeViewModel)parameter[0]));
                         break;
                 }
             }

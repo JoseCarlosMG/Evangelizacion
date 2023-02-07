@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Evangelizacion.Views.HomePage"
-             BackgroundImageSource="fondomenu">
+             xmlns:VM="clr-namespace:Core.Evangelizacion.ViewModel"
+             BackgroundImageSource="fondomenu"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.BindingContext>
+        <VM:HomeViewModel x:Name="VM" />
+    </ContentPage.BindingContext>
     <Grid ColumnDefinitions="*"
           RowDefinitions=".30*,.50*,.20*"
           VerticalOptions="Center">
@@ -35,7 +40,8 @@
                      ScaleY=".13"
                      Grid.Row="1"
                      TranslationX="-65"
-                     BackgroundColor="Transparent"></ImageButton>
+                     BackgroundColor="Transparent"
+                     Command="{Binding LectioCommand}"></ImageButton>
         <ImageButton Source="iconoliturgiaazul"
                      ScaleX=".13"
                      ScaleY=".13"

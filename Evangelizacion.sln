@@ -49,8 +49,11 @@ Global
 		SolutionGuid = {1779E4BA-163C-4BB1-94A2-E106A32CB510}
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Core.Evangelizacion\Core.Evangelizacion.projitems*{396279a3-0802-4749-a151-f29bff5361d3}*SharedItemsImports = 13
 		Core.MVVVM\Core.MVVVM.projitems*{396279a3-0802-4749-a151-f29bff5361d3}*SharedItemsImports = 13
 		Core.Evangelizacion\Core.Evangelizacion.projitems*{6c3670c4-84dc-4aa9-91b1-6b04fcab587e}*SharedItemsImports = 5
+		Core.MVVVM\Core.MVVVM.projitems*{6c3670c4-84dc-4aa9-91b1-6b04fcab587e}*SharedItemsImports = 5
 		Core.Evangelizacion\Core.Evangelizacion.projitems*{b0b1b44a-f5a1-4e1e-8760-94ca7007bd18}*SharedItemsImports = 13
+		Core.MVVVM\Core.MVVVM.projitems*{b0b1b44a-f5a1-4e1e-8760-94ca7007bd18}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

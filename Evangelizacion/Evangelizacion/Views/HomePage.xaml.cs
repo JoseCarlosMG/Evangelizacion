@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Evangelizacion.Views;
+using Core.Evangelizacion.ViewModel;
 
 namespace Evangelizacion.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
-        public HomePage()
+        public HomeViewModel ViewModel => BindingContext as HomeViewModel;
+
+        public HomePage(/*HomeViewModel parametros*/)
         {
             InitializeComponent();
         }
